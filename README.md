@@ -11,6 +11,7 @@ This is the second project of the fulltime Software Engineering program at Tripl
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+# Ideas for Improvement:
 
-Add your ideas here :)
+1.  A "back to top" button could be helpful.
+2.  I prefer the dollar amounts in the menu section to have two decimals, which is how I formatted them. I believe this looks more professional and, generally, more aesthetically pleasing.

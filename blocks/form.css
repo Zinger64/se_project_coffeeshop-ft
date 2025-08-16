@@ -1,0 +1,79 @@
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  width: 100%;
+  display: block;
+}
+
+.form__label {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin: 0 0 8px;
+  color: #000;
+}
+.form__input {
+  display: block;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  margin: 0 0 32px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border: 1px solid #838383;
+  border-radius: 2px;
+  color: #000;
+}
+.input::placeholder {
+  color: #838383;
+}
+.form__button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px 0;
+  background-color: #1878dc;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  border-radius: 4px;
+}
+.form__button:hover {
+  background-color: #3f96f3;
+  transition: background-color 0.5s;
+}
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
+  background-image: url(/se_project_coffeeshop-ft/images/check.svg);
+}
+.form__checkbox:checked {
+  background-color: #1878dc;
+}
+
+.form__label_type_checkbox {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
